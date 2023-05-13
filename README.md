@@ -6,4 +6,4 @@ The simulation of quantum circuits is well-suited for an object-oriented program
 
 The program employs runtime and compile-time polymorphism by using a base quantum gate class and a template class for generating controlled versions of single-qubit gates. These techniques contribute to a more intuitive and flexible interface when working with quantum circuits and gates. The program also incorporates advanced features, such as header files, smart pointers, and exceptions to enhance the overall structure, efficiency, and robustness of the program.
 
-This repository contains all of the class header files and main functions, seperately or as .zip, if you wish you link files. Alternatively, the entire program is available in the large 'QuantumCircuits.cpp' file also found in this repository.
+This repository contains all of the class header files and main functions, seperately or as .zip, if you wish you link files. Alternatively, the entire program is available in the 'QuantumCircuits.cpp' file also found in this repository.
