@@ -225,7 +225,7 @@ void info_menu()
             break;
         case 7:
             std::cout << "\nMatrix: \n1 0 \n0 e^(i*k*pi / 2) \n" << std::endl;
-            std::cout << "The Rk gate is a family of gates that introduce a phase shift of k*pi to a single qubit. Similar to the Phase Shift gate, this gate is crucial to implementing the Quantum Fourier Transform, and its inverse." << std::endl;
+            std::cout << "The Rk gate is a family of gates that introduce a phase shift of pi/2^k to a single qubit. Similar to the Phase Shift gate, this gate is crucial to implementing the Quantum Fourier Transform, and its inverse." << std::endl;
             press_any_key_to_continue();
             info_menu();
             break;
@@ -428,7 +428,6 @@ void build_circuit()
                 press_any_key_to_continue();
                 break;
             }
-
             case 3:
                 std::cout << "\n" << std::endl;
                 qreg.print();
